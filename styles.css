@@ -136,3 +136,15 @@ button {
 #reset-button:hover {
     background-color: #f443368c;
 }
+
+p {
+  text-align: left;
+}
+
+#physiology-main {
+  margin: 3rem;
+}
+
+main {
+  margin: 3rem;
+}
