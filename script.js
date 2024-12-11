@@ -14,10 +14,10 @@ showButton.addEventListener("click", () => {
 
   // Hide the image after 30 seconds and reset the button
   timer = setTimeout(() => {
-    image.style.display = "none";
+    image.style.visibility = "hidden";
     showButton.style.display = "none";
     showButton.style.backgroundColor = "#4CAF50"; // Green
-  }, 30000);
+  }, 10000);
 });
 
 // Reset the image and timer
@@ -26,7 +26,7 @@ resetButton.addEventListener("click", () => {
   clearTimeout(timer);
 
   // Show the image and reset the button
-  image.style.display = "block";
+  image.style.visibility = "visible";
   showButton.style.display = "inline";
   showButton.textContent = "Start";
   showButton.style.backgroundColor = "#4CAF50"; // Green
