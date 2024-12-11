@@ -6,8 +6,6 @@ let timer;
 
 // Show image for 30 seconds
 showButton.addEventListener("click", () => {
-  clearTimeout(timer);
-
   image.style.display = "block";
 
   // Change button text and color

@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -7,9 +7,21 @@ body {
 }
 
 header {
-  background-color: #4caf50;
+  background-color: #73c1ee;
   color: white;
   padding: 1rem;
+  margin-top: -1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff13fd;
 }
 
 main {
@@ -42,6 +54,7 @@ img {
 
 button {
   margin: 0.5rem;
+  font-family: 'Trebuchet MS', sans-serif;
   padding: 0.5rem 1rem;
   font-size: 1rem;
   cursor: pointer;
