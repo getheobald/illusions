@@ -160,7 +160,7 @@ p {
   margin: 4rem 16rem;
 }
 
-#attention-main, #ase-main {
+#attention-main, #ase-main, #references-main {
   margin: 4rem 22rem;
 }
 
@@ -182,4 +182,18 @@ main {
   justify-content: center;
   gap: 6rem;
   margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.references {
+  text-align: left;
+}
+
+.image-credit {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
 }
