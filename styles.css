@@ -80,11 +80,34 @@ header {
     background-color: #e25ce08d;
   }
 
-#image-container {
+.image-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#beyonce-image {
   border: 5px solid;
+}
+
+#retina-image {
+  max-width: 47%;
+}
+
+.caption {
+  display: block;
+}
+
+.caption p {
+  text-align: center;
+}
+
+#color-image {
+  max-width: 30%;
+}
+
+#ncs-container {
+  max-width: 30%;
 }
 
 img {
@@ -133,8 +156,12 @@ p {
   text-align: left;
 }
 
-#physiology-main {
-  margin: 3rem;
+#physiology-main, #ncs-main {
+  margin: 4rem 16rem;
+}
+
+#attention-main {
+  margin: 4rem 22rem;
 }
 
 main {
@@ -147,4 +174,12 @@ main {
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 1.5rem;
+}
+
+.physiology-images {
+  display: flex;
+  align-items: row;
+  justify-content: center;
+  gap: 6rem;
+  margin-top: 2rem;
 }
