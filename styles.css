@@ -160,8 +160,9 @@ p {
   margin: 4rem 16rem;
 }
 
-#attention-main, #ase-main, #references-main {
-  margin: 4rem 22rem;
+#attention-main, #ase-main, #references-main, #reflection-main {
+  margin: 3rem 22rem;
+  font-size: 19px;
 }
 
 main {

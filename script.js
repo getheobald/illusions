@@ -17,7 +17,7 @@ showButton.addEventListener("click", () => {
     image.style.visibility = "hidden";
     showButton.style.display = "none";
     showButton.style.backgroundColor = "#4CAF50"; // Green
-  }, 10000);
+  }, 30000);
 });
 
 // Reset the image and timer
